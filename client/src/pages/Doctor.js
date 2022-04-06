@@ -4,6 +4,9 @@ export default class Doctor extends Component {
   render() {
     return (
       <div className="mt-40 px-auto lg:px-40">
+        <div className="my-4 flex justify-center items-center text-2xl font-medium">
+          <h1>Doctors</h1>
+        </div>
         <table className="min-w-full divide-y divide-gray-200 h-full ">
           <thead className="bg-gray-50 ">
             <tr>
