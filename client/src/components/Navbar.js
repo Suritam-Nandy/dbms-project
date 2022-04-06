@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Menu } from "react-feather";
 
 const Navbar = () => {
@@ -11,14 +11,14 @@ const Navbar = () => {
         {/* <!-- Logo text or image --> */}
         <div className="flex items-center justify-around  md:mb-0">
           <div className="max-w-full h-auto flex justify-center items-center bg-gray-50">
-            <NavLink to="/">
+            <Link to="/">
               <img
                 className="object-contain max-w-full h-12 md:h-20 my-1 w-auto"
                 src="/logo592.png"
                 alt="logo"
               ></img>
               {/* {item.name} */}
-            </NavLink>
+            </Link>
           </div>
           <div className="md:hidden flex-row flex">
             <button
