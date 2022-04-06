@@ -14,7 +14,7 @@ const Navbar = () => {
             <NavLink to="/">
               <img
                 className="object-contain max-w-full h-12 md:h-20 my-1 w-auto"
-                src="/Images/mastercontractor-logo-01-navbar.png"
+                src="/logo592.png"
                 alt="logo"
               ></img>
               {/* {item.name} */}
